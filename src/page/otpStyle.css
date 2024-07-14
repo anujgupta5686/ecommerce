@@ -1,0 +1,16 @@
+@keyframes animate-border-multiple {
+    0% {
+        border-color: #C80B45; /* Red */
+    }
+    
+    50% {
+        border-color: #1f010a; /* Magenta */
+    }
+    100% {
+        border-color: #C80B45; /* Magenta */
+    }
+}
+
+.animate-border-multiple {
+    animation: animate-border-multiple 4s linear infinite alternate;
+}
